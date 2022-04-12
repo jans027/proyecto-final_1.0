@@ -1,0 +1,146 @@
+/* Fuente de letra  */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/*   */
+:root{
+    --principal:#dde5b6;
+    --secundario:#6c584c;
+    --textoPrincipal:#4CAF50;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: var(--principal);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+h2{
+    color: var(--textoPrincipal);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* barra de navegacion */
+.contenedorNav{
+    width: 95%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+}
+.contenedorNav a{
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+    color: var(--textoPrincipal);
+}
+.contenedorNav p{
+    float: right;
+}
+
+#cabeza{
+    color: white;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: #95a4a566;
+    padding: 5px;
+}
+
+
+/* formulario  */
+main{
+    color: var(--secundario);
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 28em;
+    padding: 2em 2em 4em 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 #00000033, 0 5px 5px 0 #0000003d;
+}
+input{
+    margin: 5px;
+    margin-top: 8px;
+    padding: 1.2em 0.5em;
+    background: #f2f2f2;
+    border: 0;
+}
+.formulario label{
+    margin-left: 0.5rem;
+}
+.formulario input{
+    color: var(--secundario);
+}
+
+.nombre input{
+    text-align: left;
+    width: 28em;
+}
+.apellidos input{
+    width: 28em;
+}
+.full-width{
+    width: 75%;
+}
+#fechaNacimiento input{
+    width: 8.4em;
+
+}
+#correoUsuario input{
+    width: 28em;
+}
+
+#contrasenaUsuario{
+    width: 31em;
+}
+#sexo input{
+    width: 28em;
+}
+#telefonoMovil input{
+    width: 28em;
+}
+#ubicacion input{
+    width: 28em;
+}
+#boton{
+    border: 0;
+    background: #4CAF50;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    position: inherit;
+}
+#boton:hover{
+    background: #43A047;
+}
+.message {
+    margin: 15px 0 0;
+    color: var(--secundario);
+    font-size: 12px;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+
+.message a{
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 10px;
+}
